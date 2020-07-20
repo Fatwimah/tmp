@@ -1,0 +1,7 @@
+<?xml version ='1.0' ?>
+	<chapter1>
+		<hint id = 'intro1'> Welcome! Use arrow keys to move! </hint>
+		<hint id = 'intro2'> Press up arrow key to jump! </hint>		
+		<hint id = 'intro3'> Pick power-ups and trail </hint>
+		<hint id = 'intro4'> Jump on enemy heads, collect coins.</hint>				
+	</chatper1>

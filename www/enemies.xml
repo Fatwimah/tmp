@@ -1,0 +1,6 @@
+<?xml version ='1.0' ?>
+	<chapter1>
+		<hint id = 'intro1'> Enemies! Oh My! </hint>
+		<hint id = 'intro2'> Jump on their heads to kill them! </hint>		
+		<hint id = 'intro3'> Sometimes they drop health too...</hint>				
+	</chatper1>
