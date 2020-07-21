@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="Dino.Adventure.Game1234567" android-versionCode="1" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>Dino's Adventure</name>
-	<description>Dino Adventure Game</description>
-	<author href="adv.com" email="dinoadv@gmail.com">Fatwimah</author>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="fifi.adventure" android-versionCode="1" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Fifi's Adventure</name>
+	<description>fifi adventure</description>
+	<author href="www.fifiadv.com" email="fifiadv@gmail.com">Fatwimah</author>
 
-	<icon src="icon-256.png" width="256" height="256" density="xxxhdpi" />
-	<icon src="icon-128.png" width="128" height="128" density="xhdpi" />
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
 	<preference name="android-targetSdkVersion" value="28" />
 
@@ -13,16 +13,13 @@
 	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
+ 
 
-	 
 	<preference name="deployment-target" value="10.0" />
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />
-<!-- <plugin name="cordova-plugin-ad-admob" /> -->
-
-    <!--  my custom ad plugin -->
 	<plugin name="admob-fixing-cordova" spec="https://github.com/mukeshphulwani66/admob-fixing-cordova.git"  />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-inappbrowser" />

@@ -1,6 +1,7 @@
 <?xml version ='1.0' ?>
 	<chapter1>
-		<hint id = 'intro1'> Collect the hidden diamond!</hint>
+		<hint id = 'intro1'> Collect the diamond!</hint>
 		<hint id = 'intro2'> Win the war!</hint>
+		
 	</chatper1>
 	

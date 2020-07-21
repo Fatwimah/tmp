@@ -1,0 +1,7 @@
+<?xml version ='1.0' ?>
+	<chapter1>
+		<hint id = 'intro1'> Welcome!</hint>
+		<hint id = 'intro2'> Collect coins</hint>		
+		<hint id = 'intro3'> Jump on enemy heads</hint>
+		<hint id = 'intro4'> Pick power-ups and trail</hint>				
+	</chatper1>
