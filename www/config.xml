@@ -1,53 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="Dino.Adventure.Game1234567"  android-versionCode="1" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="Dino_Adventure_Game1234567" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Dino's Adventure</name>
 	<description>Dino Adventure Game</description>
 	<author href="adv.com" email="dinoadv@gmail.com">Fatwimah</author>
-
-	<content src="index.html"/>
-
 	<icon src="icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="icon-128.png" width="128" height="128" density="xhdpi" />
 
+	<preference name="android-targetSdkVersion" value="28" />
 
-	
-	<platform name="android">
-		<allow-intent href="market:*"/>
-		<allow-intent href="http://*/*"/>
-		<allow-intent href="https://*/*"/>
-		<allow-intent href="tel:*"/>
-		<allow-intent href="sms:*"/>
-		<allow-intent href="mailto:*"/>
-		<allow-intent href="geo:*"/>
-
-		<preference name="enabled" value="true"/>
-	<preference name="deployment-target" value="8.0" />
-		<preference name="android-minSdkVersion" value="16" />
-		<preference name="android-targetSdkVersion" value="26" />
-	
-
-	</platform>	
-
-	
-
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	<feature name="http://api.phonegap.com/1.0/file" />
-	<preference name="phonegap-version" value="cli-8.0.0" />
 	<preference name="orientation" value="landscape" />
 	<preference name="fullscreen" value="true" />
-	 
-	
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+ 
 
-	
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+<!-- <plugin name="cordova-plugin-ad-admob" /> -->
+
+    <!--  my custom ad plugin -->
+	<plugin name="admob-fixing-cordova" spec="https://github.com/mukeshphulwani66/admob-fixing-cordova.git"  />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
-	<plugin name="cordova-plugin-admob-free"> 	
-		<variable name="ADMOB_APP_ID" value="ca-app-pub-1089585303772671~9507491297" /> 
-	</plugin>
-
-	<!-- Optional splash screen image, e.g.: -->
-	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+	<plugin name="cordova-plugin-wkwebview-engine" />
 
 
-
+ 	<engine name="android" />
 </widget>
